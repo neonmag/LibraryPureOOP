@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Infrastructure">
+      <UniqueIdentifier>{d19c95a8-787e-4ce1-872a-bb1914b00985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{3d15494d-c297-490b-8c7c-f3f04ea462a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Abstracts">
+      <UniqueIdentifier>{c298d571-3c07-45c7-b156-7aeaa314bb9f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LibraryPureOOP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractBase.h">
+      <Filter>Abstracts</Filter>
+    </ClInclude>
+    <ClInclude Include="IHuman.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Visitor.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractHuman.h">
+      <Filter>Abstracts</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
