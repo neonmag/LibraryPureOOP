@@ -41,5 +41,11 @@
     <ClInclude Include="AbstractHuman.h">
       <Filter>Abstracts</Filter>
     </ClInclude>
+    <ClInclude Include="Author.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Genre.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

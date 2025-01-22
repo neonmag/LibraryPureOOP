@@ -132,6 +132,8 @@
   <ItemGroup>
     <ClInclude Include="AbstractBase.h" />
     <ClInclude Include="AbstractHuman.h" />
+    <ClInclude Include="Author.h" />
+    <ClInclude Include="Genre.h" />
     <ClInclude Include="IHuman.h" />
     <ClInclude Include="Visitor.h" />
   </ItemGroup>
