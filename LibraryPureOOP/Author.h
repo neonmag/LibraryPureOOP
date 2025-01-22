@@ -1,6 +1,15 @@
 class Author : public IHuman, protected AbstractHuman{
 	string pseudonym;
 public:
+	Author() {
+		this->id = 0;
+		this->age = 0;
+		this->name = "Default";
+		this->surname = "Default";
+		this->fathername = "Default";
+		this->pseudonym = "Default";
+	}
+
 	Author(int id, int age, string name, string surname, string fathername, string pseudonym) {
 		this->id = id;
 		this->age = age;
@@ -8,6 +17,15 @@ public:
 		this->surname = surname;
 		this->fathername = fathername;
 		this->pseudonym = pseudonym;
+	}
+
+	Author(const Author& author) {
+		this->id = author.id;
+		this->age = author.age;
+		this->name = author.name;
+		this->surname = author.surname;
+		this->fathername = author.fathername;
+		this->pseudonym = author.pseudonym;
 	}
 
 	friend ostream & operator<<(ostream & os, Author& author) {

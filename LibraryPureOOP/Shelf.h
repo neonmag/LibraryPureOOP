@@ -1,0 +1,2 @@
+class Shelf : protected AbstractBase {
+};

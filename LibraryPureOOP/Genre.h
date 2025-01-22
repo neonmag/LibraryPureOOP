@@ -3,11 +3,25 @@ class Genre : protected AbstractBase {
 	string description;
 	int dateOfRelease;
 public:
+	Genre() {
+		this->id = 0;
+		this->name = "Default";
+		this->description = "Default";
+		this->dateOfRelease = 0;
+	}
+
 	Genre(int id, string name, string description, int dateOfRelease) {
 		this->id = id;
 		this->name = name;
 		this->description = description;
 		this->dateOfRelease = dateOfRelease;
+	}
+
+	Genre(const Genre& genre) {
+		this->id = genre.id;
+		this->name = genre.name;
+		this->description = genre.description;
+		this->dateOfRelease = genre.dateOfRelease;
 	}
 
 	friend ostream& operator<<(ostream& os, Genre& genre) {

@@ -133,8 +133,10 @@
     <ClInclude Include="AbstractBase.h" />
     <ClInclude Include="AbstractHuman.h" />
     <ClInclude Include="Author.h" />
+    <ClInclude Include="Book.h" />
     <ClInclude Include="Genre.h" />
     <ClInclude Include="IHuman.h" />
+    <ClInclude Include="Shelf.h" />
     <ClInclude Include="Visitor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
