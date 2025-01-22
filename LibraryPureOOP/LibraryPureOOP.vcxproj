@@ -136,6 +136,7 @@
     <ClInclude Include="Book.h" />
     <ClInclude Include="Genre.h" />
     <ClInclude Include="IHuman.h" />
+    <ClInclude Include="Imports.h" />
     <ClInclude Include="Shelf.h" />
     <ClInclude Include="Visitor.h" />
   </ItemGroup>

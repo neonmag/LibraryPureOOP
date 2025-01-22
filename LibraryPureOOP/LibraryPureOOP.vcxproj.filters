@@ -22,6 +22,9 @@
     <Filter Include="Abstracts">
       <UniqueIdentifier>{c298d571-3c07-45c7-b156-7aeaa314bb9f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Imports">
+      <UniqueIdentifier>{42d198ae-53d9-41d0-ab4c-81799993fa2d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LibraryPureOOP.cpp">
@@ -52,6 +55,9 @@
     </ClInclude>
     <ClInclude Include="Book.h">
       <Filter>Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Imports.h">
+      <Filter>Imports</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
